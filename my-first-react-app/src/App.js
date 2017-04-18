@@ -63,5 +63,34 @@ export default StyleSheet.create({
     },
     "App-intro": {
         "fontSize": "large"
+    },
+    "popular-list": {
+        "display": "flex",
+        "flexWrap": "wrap",
+        "justifyContent": "space-around"
+    },
+    "popular-item": {
+        "marginTop": 20,
+        "marginRight": 20,
+        "marginBottom": 20,
+        "marginLeft": 20,
+        "textAlign": "center"
+    },
+    "space-list-items": {
+        "marginBottom": 7
+    },
+    "avatar": {
+        "width": 150,
+        "borderRadius": "50%"
+    },
+    "align-center": {
+        "textAlign": "center"
+    },
+    "popular-rank": {
+        "fontSize": 20,
+        "marginTop": 10,
+        "marginRight": 10,
+        "marginBottom": 10,
+        "marginLeft": 10
     }
 });
