@@ -92,5 +92,97 @@ export default StyleSheet.create({
         "marginRight": 10,
         "marginBottom": 10,
         "marginLeft": 10
+    },
+    "nav": {
+        "display": "flex"
+    },
+    "active": {
+        "fontWeight": "bold"
+    },
+    "nav li": {
+        "marginTop": 15,
+        "marginRight": 15,
+        "marginBottom": 15,
+        "marginLeft": 15
+    },
+    "a": {
+        "textDecoration": "none",
+        "color": "#d0021b"
+    },
+    "home-container": {
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center"
+    },
+    "button": {
+        "color": "#e6e6e6",
+        "background": "#0a0a0a",
+        "border": "none",
+        "fontSize": 16,
+        "borderRadius": 3,
+        "width": 200,
+        "textAlign": "center",
+        "display": "block",
+        "paddingTop": 7,
+        "paddingRight": 0,
+        "paddingBottom": 7,
+        "paddingLeft": 0,
+        "marginTop": 10,
+        "marginRight": "auto",
+        "marginBottom": 10,
+        "marginLeft": "auto"
+    },
+    "button:hover:enabled": {
+        "background": "linear-gradient(#1a1a1a,#0a0a0a)",
+        "color": "#fff",
+        "textDecoration": "none"
+    },
+    "button:active": {
+        "transform": "translateY(1px)"
+    },
+    "row": {
+        "display": "flex",
+        "justifyContent": "space-around"
+    },
+    "column": {
+        "display": "flex",
+        "flexDirection": "column",
+        "width": 500,
+        "alignItems": "center"
+    },
+    "column label": {
+        "textAlign": "center",
+        "fontSize": 30,
+        "fontWeight": "200"
+    },
+    "header": {
+        "textAlign": "center",
+        "fontSize": 30,
+        "fontWeight": "200"
+    },
+    "column input": {
+        "borderRadius": 3,
+        "marginTop": 15,
+        "marginRight": 2,
+        "marginBottom": 15,
+        "marginLeft": 2,
+        "paddingTop": 5,
+        "paddingRight": 5,
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "border": "1px solid rgba(0,0,0,0.43)",
+        "fontSize": 16,
+        "width": "80%"
+    },
+    "reset": {
+        "border": "none",
+        "background": "transparent",
+        "color": "#d0021b",
+        "display": "block",
+        "width": "100%",
+        "textAlign": "center"
+    },
+    "reset:hover": {
+        "cursor": "pointer"
     }
 });
