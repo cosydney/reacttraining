@@ -5,14 +5,14 @@ var Loading = require('./Loading');
 
 // stateless functional component
 function SelectLanguage (props){
-  var languages = ['All', 'Javascript', 'Ruby', 'Java', 'CSS', 'Python'];
+  var languages = ['All', 'Javascript', 'Ruby', 'Java', 'CSS', 'Python', 'Swift'];
   return (
     <ul className='languages'>
     {languages.map(function (lang){
       return (
         <li
           style={lang === props.selectedLanguage ? { color: '#d0021b'} : null}
-          onClick={props.onSelect.bind(null, lang )}
+          onClick={props.onSelect.bind(null, lang)}
           key={lang} >
           {lang}
         </li>

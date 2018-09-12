@@ -56,7 +56,6 @@ function handleError (error) {
 }
 
 
-
 module.exports = {
   battle: function (players) {
     return axios.all(players.map(getUserData))

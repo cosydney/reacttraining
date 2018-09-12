@@ -53,6 +53,7 @@ li {
   to { transform: rotate(360deg); }
 }
 
+/* ul de popular */
 .popular-list {
   display: flex;
   flex-wrap: wrap;

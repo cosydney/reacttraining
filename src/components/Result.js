@@ -28,12 +28,12 @@ Profile.propTypes = {
   info: PropTypes.object.isRequired,
 }
 
-function Player (props) {
+function Player ({label, score, profile}) {
   return (
     <div>
-      <h1 className='header'>{props.label}</h1>
-      <h3 className='align-center'>Score: {props.score}</h3>
-      <Profile info={props.profile}/>
+      <h1 className='header'>{label}</h1>
+      <h3 className='align-center'>Score: {score}</h3>
+      <Profile info={profile}/>
     </div>
   )
 }

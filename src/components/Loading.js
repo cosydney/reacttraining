@@ -33,9 +33,11 @@ class Loading extends React.Component {
       }
     }.bind(this), this.props.speed)
   }
+
   componentWillUnmount(){
     window.clearInterval(this.interval);
   }
+  
   render() {
     return (
       <p className='align-center' style={styles.content}>
